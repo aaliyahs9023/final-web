@@ -119,3 +119,16 @@ p {
         padding-top:20px;
         text-align: center;
     }
+    #info{
+        width: 100%;
+        background:gold;
+    }
+    #hidediv{
+       text-align: center; 
+    }
+
+#showingdiv{
+    display:none;
+    text-align:center;
+    object-fit: cover;
+}

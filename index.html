@@ -40,24 +40,19 @@
                 $("#hidden").hide()
             });
         });
+        
+        $(document).ready(function () {
+    $(".btn1").click(function () {
+        $("#hidediv").hide();
+        $("#showingdiv").show();
+    });
+
+});
     </script>
 </head>
 
 <body>
-    <!--collapsible nav-->
-    <!-- <div class="pos-f-t">
-  <div class="collapse" id="navbarToggleExternalContent">
-    <div class="bg-dark p-4">
-      <h5 class="text-white h4">Collapsed content</h5>
-      <span class="text-muted">Toggleable via the navbar brand.</span>
-    </div>
-  </div>
-  <nav class="navbar navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  </nav>
-</div>-->
+
 
     <!--navbar at top-->
   <nav class="navbar navbar-inverse">
@@ -68,7 +63,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="#">Home</a></li>
                 <li><a href="#info">Info</a></li>
-                <li><a href="#care">Caring for your dog</a></li>
+                <li><a href="#care">Adoption Video</a></li>
                 <li><a href="#places">Great places to take your dog!</a></li>
                 <li><a href="#adoption">Adoption centers and Contacts</a></li>
             </ul>
@@ -80,10 +75,13 @@
         <h1 id="black">The Black Dog</h1>
         <h4 id="hidden">click the above text!</h4>
     </div>
-
     
+    <div id ='info'>
+<div id="hidediv"><h4>Dogs are amazing companions and multipurpose.You can get a dog just because, to help with anxiety, seizures, eyesight and more! They're extremey loyal animals and just great overall. Continue to scroll if you'd like more infomation on dogs and adopting near Bay Ridge. </h4> </div>
+<button class="btn1">Click me for a fluffy suprise!</button> <br>
+<div id="showingdiv">  <img src='images/golden-retriever-dog.jpg' /></div>
 
-    
+    </div>
 
     <div id='video'>
         <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/PlenCsscG6s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>display: block;
